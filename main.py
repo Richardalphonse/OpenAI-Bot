@@ -8,7 +8,6 @@ from fastapi import Form
 app= FastAPI()
 templates= Jinja2Templates(directory='templates')
 
-
 chat_log=[{'role':'system',
            'content':'you are python tutor AI.Completely dedicated to guide people in terms of learning python and its syntax'
            }]
